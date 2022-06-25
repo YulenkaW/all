@@ -1,4 +1,4 @@
-The task: This Project is to make an automated Teller machine with the user's Account Number, 
+The task  is to make an automated Teller machine with the user's Account Number, 
 and Password, bank account, with which users can withdraw, deposit, and view their account balance. 
 It used boolean-case choosing and hashMap techniques, separated account, option menu and main classes to be more readable, 
 and included users' input. (GitHub example “AutoTeller”). All right reserved.
