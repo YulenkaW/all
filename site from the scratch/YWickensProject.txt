@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name ="keywords" content ="cruelty, pets, animals, protect" />
+<meta name ="description" content ="This is a site about animal cruelty"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}            
+
+header {
+   background-image: linear-gradient( #66cc00, white);
+   background-repeat: no-repeat;
+   padding:  .50em;
+   text-align: center;
+   height: 10em;
+   margin-bottom: .61em;
+}
+
+.back1 {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top; 
+       margin-right: 200px; 
+       float:right;
+           height: 85%;
+
+}
+
+.posit1 {
+            position:absolute;
+            top: 20px;
+            left: 90px;
+            z-index: 1;
+           width: 10%;
+           height: 17%; 
+            }
+
+ ol{list-style-type:upper-roman;} 
+
+ ol li{ padding:5px;}
+          
+ul {
+   margin:0;
+   padding: 0;
+   list-style-type:none;
+   background-color: #d5f4e6;
+   opacity: 0.7;
+   border: 1px solid #f18973;
+   border-radius: 20px;
+
+}
+
+ul li{
+         padding: 10px 15px;
+         
+         font-weight: bold;}
+ }
+ .opc {
+            opacity: 0.7;
+            text-decoration: none;    
+            }
+ .opc:hover {
+            opacity: 1.0;
+            color:violet;
+                
+            }
+
+nav {float: right;
+     width: 20%;}
+
+table {  
+   width: 70%;
+   margin:auto;   }
+th {
+     background-color: #ffff4d;
+     font-type: 24px  'Times new roman' italic;
+     bottom-border: 5px;
+     color: maroon; 
+     }
+     
+     
+.image{border: solid green 2px;
+       padding: 15px;
+       background-color: #cce6ff;
+       }
+.image:hover {
+  border: 5px solid red;
+}
+
+
+td   {
+   padding: 10px;
+   text-align: center;
+   vertical-align: center;
+   border: 1px solid #80bfff;
+   }
+   
+   
+ p{ margin-top:50px;
+           padding: 60px;
+          column-count: 2;
+          text-indent: 20px;
+          text-align:justify;
+          font-family: "Times New Roman", Times, serif;
+          font-size: large; 
+          line-height: 200%;}
+ h3 { text-transform: uppercase;
+      background: #ff6666;
+      border-radius: 5px;
+      padding-top: 20px ;
+     padding-bottom: 10px;
+    padding-left: 20px;
+      margin-top: 80px;
+     margin-bottom: 20px;}
+      
+      
+ body  {background-image: url('assets/pexels.jpg');
+                background-size: auto;
+background-repeat: no-repeat;
+}
+
+ figure {
+               float: right;}
+h2 {color: red; 
+           margin-left: 250px;
+            margin-top: 100px;
+            margin-bottom: auto;
+            padding: 10px;}
+
+.figure {
+               margin-left: 250px;
+               margin-top: 20px;
+              padding: 20px;
+               width: 60%;
+              border: 1px solid blue;}
+
+section {
+                   display: block;
+                  text-align:justify;
+                 column-count: 1;}
+
+.formHead {
+                   font-size: x-large;
+                   color: #ff0000;
+                  margin-top: 100px;
+                  text-align: center;
+                  padding: 20px;
+                  border: none;}
+
+.formP {font-size: x-large;}
+
+input [type=submit]  {background-color: red;
+padding: 10px 20px;
+cursor: pointer;}
+
+fieldset {
+       font-size: 18px;
+       background-color: #ffaa80;
+       outline: #ffaa80solid 5px;
+      border: 1px solid #ffaa80;
+      margin-top: 20px;      }
+
+. column1 {
+float: left;
+width: 33.33%;
+padding: 5px;
+margin-top: 30px;}
+
+.row1:: after {
+content: "";
+clear: both;
+display: table;}
+
+.img2 {width: 100%;}
+
+.td2 {padding: 0;
+margin: 0;
+border: none;}
+
+.th1{
+              text-align: justify;
+             color: #cc0099;
+             background-color: #9ae59a;
+              font-size: 30px;}
+.menu li {float: left;}
+.menu li a {
+                     padding: 15px;
+                      text -align: center;
+                     text-decoration: none;}
+
+.menu li a:hover {background-color: green;}
+
+.footer {
+                     background-color: #66cc00;
+                      color: #0a290a;
+                       font-size: 15px;
+                       display: flex;
+                        padding: 30px;
+                      margin-top: 30px;
+                       list-style-type:none;}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 760px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img class = "back1" src ="assets/protect.jpeg">
+<img class = "posit1" src = "assets/stop.png">
+</header>
+<article>
+<p>In recent years, there has been a monumental increase in wildlife crime, resulting in an extinction crisis that threatens the global diversity of species, as well as the security and stability of many countries. Wildlife trafficking is one of the leading causes of this crisis. Unfortunately, it is a multi-billion dollar global industry with a low rate of arrests and convictions. Because of its underground nature, detection is almost impossible through law enforcement officials acting alone. Protecting and incentivizing people to report illegal activity is crucial to combating this increasingly lucrative trade and the poaching that sustains it - but additional enforcement capabilities are needed.
+</p></article>
+
+<h3> The First Signs Of Animal Abuse, Neglect Or Cruelty</h3>
+<nav>
+  <ul>
+   <a  href="https://www.google.com/search?q=related+videos+to+animal+cruelty+topic&oq=related+videos+to+animal+cruelty+topic&aqs=chrome..69i57j33i22i29i30.10718j0j15&sourceid=chrome&ie=UTF-8"><li > Related: 
+<ol>
+   <a class ="opc" href="https://www.washingtonpost.com/science/2019/09/17/they-abused-their-pets-viral-videos-laws-dont-always-consider-it-cruelty/"> <li> They're accused of abusing their pets in viral videos. But laws don't always consider it cruelty.  </li></a>
+   <a class ="opc"  href="https://www.theguardian.com/world/2020/dec/19/youtube-must-remove-videos-of-animal-cruelty-says-charity"><li>YouTube must remove videos of animal cruelty, says charity </li></a> 
+   <a class ="opc"  href="https://www.rspca.org.uk/-/psc-dog-caused-mental-fear-from-abuse"><li>Dog caused mental fear from abuse</li></a> 
+</ol>
+</li></a>  
+</ul> 
+</nav>
+
+
+<table>
+<tr>
+<th colspan="2">The Sign</th>
+<th> Description</th>
+</tr>
+<tr> 
+<td>
+<a target="_blank" href="assets/1.jpeg"><img class="image" src ="assets/1.jpeg"></a></td>
+<td><b> Poor Body Condition And Noticeable Trauma</b></td>
+<td> The animal has severe matting and a filthy coat, open sores or obvious wounds. He appears to be flea or tick infested. He is underweight with bones visible clearly. He might be limping or unable to walk at all, or have congested eyes or ears. He is in obvious physical distress and in need of veterinary care.</td>
+</tr>
+<tr>
+<td><a target="_blank" href="assets/2.jpeg"> <img class="image"  src ="assets/2.jpeg"></a></td>
+<td> <b>Lack Of Food Or Water</b></td>
+<td> Every time you see this animal you notice that she has no obvious sources of food and/or water. She may be aggressive due to starvation and thirst, and perhaps very lethargic.</td>
+</tr>
+<tr>
+<td><a target="_blank" href="assets/3.jpeg"> <img  class="image" src ="assets/3.jpeg"></td>
+<td><b> Lack Of Shelter</b></td>
+<td> The animal is contained in an area that is largely or fully exposed to inclement weather or constant sun. In many states, if an animal dies as a result of being left alone in a hot car the owner can be charged. See the laws in your state.</td>
+</tr>
+</table>
+
+<object class = "column1 row1"  >
+<table >
+<tr> <th colspan = "3" class = "th1"> How could we not care about them? </th></tr>
+<tr>
+ <td class = "td2" > <img class = "img2"  src="assets/6.jpeg" alt=" " ></td> 
+ <td class= "td2"> <img class = "img2"   src="assets/7.jpeg" alt=" " ></td> 
+ <td class = "td2"> <img class = "img2"   src="assets/8.jpeg" alt=" " ></td> </tr>
+</table>
+</object>
+
+<figure >
+<h2 ><b> what is animal cruelty</b> </h2>
+<iframe class = "figure" width="300" height="250" src="https://www.youtube.com/embed/Fm6yVtI1PH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</figure>
+<section>
+<h3 id ="formHead" >YOU CAN HELP THEM WITH US</h3>
+
+<h4 class ="formP " ><b>If you want to <b>DONATE</b> for Michigan pets society, leave your information here and we would contact you very soon</b></h4>
+</section>
+
+<form action="/action_page.php">
+  <fieldset>
+   <label >How we can contact with You:</label><br><br>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="your name"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" placeholder="your last name"><br><br>
+     <label for="phone">Enter a phone number:</label>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+<input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+<footer class = "footer menu col-12 col-s-12 " 
+      <ul>
+      <li><a href = "#cookies" > Cookie Settings</a></li>
+      <li><a href = "#policy" > Privacy Policies</a> </li>
+      <li><a href = "#terms" > Terms +Conditions</a></li>
+      <li> <b><b>@2021 Yuliia Wickens is a non-profit beneficiary.  Michigan, Novi. <b>All rights Reserved.</li>
+    </ul>
+  </footer>
+
+</body>
+</html>
